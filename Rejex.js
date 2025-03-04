@@ -1,5 +1,5 @@
 function check(pin){
-  const rejex=/^[1-9][0-9]{5}$/;
+  const rejex=/^[0-9]{6}$/;
   return rejex.test(pin)
 }
 
